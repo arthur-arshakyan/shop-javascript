@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 200px auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 80%;
+}
+
+input:hover {
+    background: #e8e8e8;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+
+#btn {
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+	background: #7a7a88;
+    border: 0;
+	padding:10px 20px;
+	border-radius: 0px 0px 10px 10px;
+    transition: 0.3s;
+	cursor:pointer;
+}
+
+#btn:hover {
+    color: black;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/addProduct.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <form>
+            <div>
+                <label for="select">Category</label>
+                <select id="select"></select>
+            </div>
+    
+            <div>
+                <label for="titleInput">Title</label>
+                <input type="text" id="titleInput" class="inputs">
+            </div>
+
+            <div>
+                <label for="priceInput">Price</label>
+                <input type="text" id="priceInput" class="inputs">
+            </div>
+
+            <div>
+                <label for="descriptionInput">Description</label>
+                <textarea id="descriptionInput" cols="30" rows="10" class="inputs"></textarea>
+            </div>
+
+            <div>
+                <label for="imageInput">Image</label>
+                <input type="file" id="imageInput" accept="image/*" title="Select an image file" class="inputs">
+            </div>
+
+            <div>
+                <button type="button" onclick="addProduct()">Add product</button>
+            </div>
+
+        </form>
+    </main>
+    <script src="./js/addProduct.js"></script>
+</body>
+</html>
