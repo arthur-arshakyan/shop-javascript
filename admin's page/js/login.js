@@ -2,7 +2,7 @@ function signIn() {
     let usernameInput = document.querySelector('#usernameInput')
     let passwordInput = document.querySelector('#passwordInput')
     
-    if(usernameInput.value == 'administrator' && passwordInput.value == '1111'){
+    if(usernameInput.value == 'admin' && passwordInput.value == '1111'){
         sessionStorage.setItem('administrator' , 'online')
         location.href = 'admin.html'
     }else{

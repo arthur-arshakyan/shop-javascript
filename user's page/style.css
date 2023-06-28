@@ -34,6 +34,7 @@ nav ul li {
     padding: 10px 35px;
     cursor: pointer;
     border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 nav ul li:hover {
@@ -52,6 +53,26 @@ nav ul li:hover {
 
 i {
     font-size: 25px;
+}
+
+#li {
+    position: relative;
+}
+
+#productCount{
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    font-size: 13px;
+    color: #323131;
+    background-color: #e6e6e6;
+    /* padding: 0px 3px; */
+    border-radius: 12px;
+    border: 1px solid rgb(189, 187, 187);
+    font-weight: bold;
 }
 
 main {
@@ -78,6 +99,7 @@ main {
     padding: 15px 20px;
     cursor: pointer;
     list-style: none;
+    transition: all 0.3s ease;
 }
 
 .filterDiv ul li:first-child {
